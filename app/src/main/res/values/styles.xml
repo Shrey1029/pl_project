@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base style for the entire application (can customize theme elements here) -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base button style that all other button styles will inherit from -->
+    <style name="BaseButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item> <!-- Default text color -->
+        <item name="android:background">?attr/selectableItemBackground</item> <!-- Default ripple effect -->
+    </style>
+
+    <!-- Primary button style for addition -->
+    <style name="PrimaryButtonStyle" parent="BaseButtonStyle">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">90dp</item>
+    </style>
+
+    <!-- Secondary button style for multiplication -->
+    <style name="SecondaryButtonStyle" parent="BaseButtonStyle">
+        <item name="android:backgroundTint">@color/colorSecondary</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+    <!-- Accent button style for subtraction & division -->
+    <style name="AccentButtonStyle" parent="BaseButtonStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+</resources>

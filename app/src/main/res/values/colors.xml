@@ -1,0 +1,21 @@
+<resources>
+    <color name="background">#F4F4F9</color>
+    <color name="primaryAccent">#3B72FF</color>
+    <color name="secondaryAccent">#C67C00</color> <!-- Updated color -->
+    <color name="primaryText">#333333</color>
+    <color name="secondaryText">#666666</color>
+    <color name="errorText">#FF3B30</color>
+    <color name="primaryButtonBackground">#388E3C</color>
+    <color name="primaryButtonText">#FFFFFF</color>
+    <color name="secondaryButtonBackground">#FF5722</color>
+    <color name="secondaryButtonText">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Ice_blue">#99ffff</color>
+
+        <color name="colorPrimary">#6200EE</color>
+        <color name="colorPrimaryDark">#3700B3</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="colorSecondary">#03DAC5</color>
+
+
+</resources>
